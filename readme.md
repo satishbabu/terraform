@@ -4,11 +4,12 @@
 ## Terraform Installation & Setup:
 1. Install terraform from Ubuntu on WSL. Get the link from browser by searching for terraform package
 
-`cd`
-`wget https://releases.hashicorp.com/terraform/0.15.0/terraform_0.15.0_linux_amd64.zip`
-`unzip terraform_*.zip`
-`mv terraform bin`
-
+```linux
+cd
+wget https://releases.hashicorp.com/terraform/0.15.0/terraform_0.15.0_linux_amd64.zip
+unzip terraform_*.zip
+mv terraform bin
+```
 
 ## Google Cloud setup
 Create a service account in Google Cloud and download the key into tfsvc.com. 
