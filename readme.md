@@ -1,5 +1,5 @@
 # Terraform - getting started
-
+Followed the YouTube video from GK at https://www.youtube.com/watch?v=5_DHR5wVVRo
 
 ## Terraform Installation & Setup:
 1. Install terraform from Ubuntu on WSL. Get the link from browser by searching for terraform package
@@ -23,3 +23,4 @@ Update project id in main.tf and adjust other parameters
 
 3. Execute `terraform apply` to apply the changes to the google cloud.  Once it completes go check on google console to ensure the requested changes have been applied.
 
+4. Remove the environment by executing `terraform destroy` to apply the changes to the google cloud.  This will remove the environment and avoid incurring cost.
