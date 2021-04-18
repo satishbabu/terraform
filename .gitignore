@@ -1,2 +1,6 @@
 tfsvc.json
 .terraform*
+.terraform
+terraform.tfstate*
+
+
