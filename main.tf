@@ -30,3 +30,7 @@ resource "google_compute_instance" "appserver" {
     network = "default"
   }
 }
+
+module "cloudsql" {
+  source                     = "./cloudsql"
+}
